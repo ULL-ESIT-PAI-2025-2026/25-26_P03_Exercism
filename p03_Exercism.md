@@ -1,5 +1,5 @@
-# Práctica 3. Programas simples. Exercism.
-### Factor de ponderación: 4
+# Práctica 3. Programas simples en JavaScript. Exercism.
+### Factor de ponderación: 3
 
 ### Objetivos
 Los objetivos de esta práctica son:
@@ -54,21 +54,17 @@ máquina local.
 Desde esa página (*Installing the CLI*) se accede al enlace
 [Welcome to the Exercism installation guide!](https://exercism.org/cli-walkthrough)
 donde hallará instrucciones sobre cómo instalar `Exercism` en su máquina.
-En este documento se propone instalarla en la máquina virtual de la asignatura.
-Eligiendo la opción *Linux* y a continuación la opción *Using snap* se le pedirá que ejecute
+En este documento se propone instalarla en la máquina virtual de la asignatura, de modo que habrá que elegir 
+la opción *Linux*.
+Para la instalación elija el fichero 
 ```
-$ sudo snap install exercism
+exercism-3.5.8-linux-i386.tar.gz
 ```
-Ese comando instalará en primer lugar `snap` y a continuación `exercism`, que es lo que se persigue.
+
 También en esa página se indica que se compruebe que la instalación es correcta con el comando
 ```
 $ exercism version
 ```
-[`snap`](https://blogubuntu.com/que-es-ubuntu-snap) es un mecanismo alternativo al ya conocido
-`apt-get install` para instalar aplicaciones en Ubuntu Linux.
-Si quiere Ud. saber más sobre `snap` puede consultar
-[esta referencia](https://snapcraft.io/docs/getting-started),
-aunque ello no es necesario para el trabajo que se propone realizar con Exercism.
 
 Una vez instalada la aplicación `exercism` el siguiente paso es configurar su interfaz de comandos (CLI).
 Para ello se pide que se ejecute:
@@ -76,11 +72,11 @@ Para ello se pide que se ejecute:
 $ exercism configure --token=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
 ```
 donde el *token* que figura en el comando anterior se encuentra (es específico de cada usuario) en la 
-[página de configuración](https://exercism.io/my/settings) 
+[página de configuración](https://exercism.org/settings/api_cli) 
 de la cuenta de usuario que se ha creado.
 Basta copiar de esa página el token y colocarlo en el comando anterior.
 
-El comando una vez ejecutado indica:
+El comando una vez ejecutado indicará algo parecido a lo siguiente:
 ```
 You have configured the Exercism command-line client:
 
@@ -98,7 +94,7 @@ esa página figuran las instrucciones para:
 * Solve. Para resolver el problema se propone usar Visual Studio Code
 * Submit. El comando para subir a la plataforma la solución que el usuario proponga.
 
-Si se ejecuta el comando para descargar el problema el sistema responde:
+Si se ejecuta el comando para descargar el problema el sistema responde algo parecido a lo siguiente:
 ```
 exercism download --exercise=hello-world --track=javascript
 

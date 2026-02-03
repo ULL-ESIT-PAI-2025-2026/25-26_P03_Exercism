@@ -210,6 +210,9 @@ https://exercism.io/my/solutions/xxxx
 A partir de este punto puede ya ver las soluciones que otras usuarias hayan dado al mismo problema o bien
 avanzar con otros problemas de ese mismo "track".
 
+Para resolver dudas sobre el uso de Exercism puede resultar útil consultar los diferentes apartados de la página
+[Using Exercism](https://exercism.org/docs/using).
+
 ### Ejercicios de Exercism
 Siga a continuación con el conocido problema
 [Two Fer](https://exercism.org/tracks/javascript/exercises/two-fer)

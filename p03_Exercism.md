@@ -118,7 +118,7 @@ Edite ese fichero hasta que considere que tiene una versión operativa.
 Si se analizan los tests del problema *Hello World* que figuran en el fichero `hello-world.spec.js`
 se observa que la función que los test evalúan es `hello()`.
 
-En la plantilla que Exercism ofrece para la función, ésta se implementa como:
+En la plantilla que Exercism ofrece para la función (fichero `hello-world.js`), ésta se implementa como:
 
 ```js
 export function hello() {
@@ -183,18 +183,23 @@ Una vez finalizado su programa, el siguiente paso consiste en pasar (superar) lo
 Cada ejercicio de Exercism va acompañado de una serie de tests que el programa debe superar para ser
 considerado válido.
 
-Tal como se explica en la página [Running the Tests](https://exercism.io/tracks/javascript/tests), cada problema va
+Tal como se explica en la página [Testing on the JavaScript track](https://exercism.io/tracks/javascript/tests), cada problema va
 acompañado de sus tests unitarios.
 
 Para comprobar su solución ejecute:
 
 ```
-$ npm run test
+$ corepack pnpm test
 ```
 
 Cuando su solución al problema pase todos los tests y esté Ud. satisfecha con la misma, puede remitirla a la
 plataforma.
-Utilice para ello el comando `exercism submit` que hallará Ud. en la página correspondiente al problema.
+Utilice para ello el comando 
+
+```
+exercism submit <implementation_file_paths>
+```
+
 Una vez que haya enviado su solución a Exercism recibirá un mensaje similar a este:
 ```
 Your solution has been submitted successfully.
@@ -231,11 +236,11 @@ Javascript.
 Los diferentes programas de la plataforma se van desbloqueando conforme va Ud. resolviendo problemas cada vez
 más complejos.
 
-Para cubrir los objetivos de esta práctica, resuelva al menos **5 problemas de la plataforma** aparte de los
+Para cubrir los objetivos de esta práctica, resuelva **al menos 10** problemas de la plataforma aparte de los
 anteriores y a partir de ese punto, desarrolle todos los ejercicios de Exercism que sea capaz.
 
 ## Ejercicios de Jutge
-Desarrolle programas que solucionen los siguientes problemas:
+Desarrolle programas que solucionen los siguientes problemas y valide su solución en Jutge:
 
 1. [P11916](https://jutge.org/problems/P11916_en) Approximation of e
 2. [P67268](https://jutge.org/problems/P67268_en) Reverse of sequences
@@ -246,6 +251,6 @@ Desarrolle programas que solucionen los siguientes problemas:
 ## Referencias
 * [Exercism](https://exercism.io/)
 * [JavaScript Fundamentals](https://javascript.info/first-steps)
-* [PAI Code Examples](https://github.com/ULL-ESIT-PAI-2022-2023/PAI-class-code-examples.git)
+* [PAI Code Examples](https://github.com/ULL-ESIT-PAI-2025-2026/PAI-class-code-examples)
 * [Google JavaScript Style Guide](https://google.github.io/styleguide/jsguide.html)
 * [Jutge web site](https://jutge.org/)
